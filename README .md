@@ -488,16 +488,14 @@ print("¡Despegue!")
 | Versión | [Indicar](Evidencia/Visual/Actualizar_VS2.png) | [Indicar](Evidencia/IDEA/version_IDEA1.png) |
 | Sistema operativo | Windows11 | Windows11 |
 | Versión de Python | [Indicar](Evidencia/Visual/versionPY_VS1.png) | [Indicar](Evidencia/IDEA/versionPY_IDEA1.png) |
-| Ruta del intérprete | - | [Indicar] |
-| Entorno virtual | [Indicar] | [Indicar] |
+| Entorno virtual | - | [Indicar](Evidencia/IDEA/python_IDEA1.png) |
 
 Se comprueba que el contenido del archivo `main.py` es idéntico en ambos entornos.
 
 **Evidencias:**
 
-- [Insertar captura del archivo abierto en el IDE 1].
-- [Insertar captura del mismo archivo abierto en el IDE 2].
-- [Insertar comprobación de que ambos archivos tienen el mismo contenido].
+- [Insertar captura del archivo abierto en el IDE 1](Evidencia/Visual/IDE_VS1.png).
+- [Insertar captura del mismo archivo abierto en el IDE 2](Evidencia/IDEA/Intell_IDEA1.png).
 
 ## E-2F-02 — Ejecución y depuración
 
