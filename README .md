@@ -149,55 +149,61 @@ Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
 
 ### Entorno 1
 
-- Estado anterior: [Descripción].
-- Instalación: [Procedimiento].
-- Prueba realizada: [Descripción](evidencias/2B/entorno1-antes.png).
-- Resultado: [Resultado].
+- Instalación: En el menu principal de VS ahi un apartado de extensiones en el cual puedes instalar todas las extensiones que desees y pudiendo desactivarla y activarla a voluntad.
+- Prueba realizada: La prueba en VS sera realizada con extensiones de python y la prueba consiste en imprimir en consola un mensaje simple.
 
 **Evidencias:**
 
-- [Estado anterior](evidencias/2B/entorno1-antes.png)
-- [Instalación](evidencias/2B/entorno1-instalacion.png)
-- [Funcionamiento](evidencias/2B/entorno1-funcionamiento.png)
+- [Estado anterior](Evidencia/Personalizacion/Extensiones_VS1.png)
+- [Instalación](Evidencia/Personalizacion/Extensiones_VS2.png)
+- [Instalación](Evidencia/Personalizacion/Extensiones_VS4.png)
+- [Funcionamiento](Evidencia/Personalizacion/Extensiones_VS3.png)
 
 ### Entorno 2
 
-- Estado anterior: [Descripción].
-- Instalación: [Procedimiento].
-- Prueba realizada: [Descripción].
-- Resultado: [Resultado].
+- Instalación: Al entrar en el inicio de IntelliJ IDEA en "Files" -> "Plugins" y te redirigira al marketplace para instalar todos los plugins que quieras.
+- Prueba realizada: Una prueba sencilla en el que el programa imprime un mensaje.
 
 **Evidencias:**
 
-- [Estado anterior](evidencias/2B/entorno2-antes.png)
-- [Instalación](evidencias/2B/entorno2-instalacion.png)
-- [Configuración y funcionamiento](evidencias/2B/entorno2-funcionamiento.png)
+- [Procedimiento](Evidencia/Personalizacion/Plugins_IDEA1.png)
+- [Procedimiento](Evidencia/Personalizacion/Plugins_IDEA2.png)
+- [Instalación](Evidencia/Personalizacion/Plugins_IDEA3.png)
+- [Configuración y funcionamiento](Evidencia/Personalizacion/Plugins_IDEA4.png)
 
 ## 3.3. Desactivación o eliminación (E-2B-03)
 
 | Operación | Entorno 1 | Entorno 2 |
 |---|---|---|
-| Complemento desactivado o eliminado | desactivado | Eliminado |
-| Proyecto sigue funcionando | No | [Sí/No] |
+| Complemento desactivado o eliminado | desactivado | desactivado |
+| Proyecto sigue funcionando | No | No |
 
 **Evidencias:**
 
-- [Estado posterior del entorno 1](evidencias/2B/entorno1-despues.png)
-- [Estado posterior del entorno 2](evidencias/2B/entorno2-despues.png)
+- [Estado posterior del entorno 1](Evidencia/Personalizacion/Extensiones_VS5.png)
+- [Estado posterior del entorno 2](Evidencia/Personalizacion/Plugins_IDEA5.png)
+- [Estado posterior del entorno 2](Evidencia/Personalizacion/Plugins_IDEA6.png)
 
 ## 3.4. Preguntas
 
 **P-2B-01. ¿Cómo se añade y se elimina o desactiva el complemento en cada entorno?**
 
 [Respuesta.]
+En VS desde el apartado de extensiones y desde IntelliJ IDEA en "Files" -> "Plugins"
 
 **P-2B-02. ¿Qué función aporta y qué herramienta externa necesita, si la necesita?**
 
 [Respuesta.]
+Python en VS aporta la sintaxis, depuracion, ejecucion de archivo, navegacion de codigo y gestion de entornos virtuales
+
+IntelliJ IDEA (Java) aporta el analisis del código mientras se escribe y marca errores, code smells y vulnerabilidades directamente en el editor.
+
+En caso de VS se necesita una extension para poder correr apropiadamente python y para IntelliJ IDEA se necesita un plugin para una ejecucion correcta en el codigo
 
 **P-2B-03. ¿Qué riesgos de mantenimiento, permisos o compatibilidad has comprobado?**
 
 [Respuesta.]
+Por el momento no existe ningun problema de mantenimiento, ya que las actualizaciones son en ambos entornos automaticas, muy raramente necesitaras un permiso de nada ni nadie para instalar una extension o plugin y en la compatibilidad tampoco a habido un problema 
 
 ---
 
@@ -208,21 +214,20 @@ Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
 ### Entorno 1
 
 - Personalización realizada: [Tema, fuente, paneles o atajos].
-- Objetivo: [Descripción].
-- Antes: [Captura].
-- Después: [Captura].
+- Fondo: haces "CTRL + P" y escribes "Preferences: Color Theme" instala la extension y podras personalizar a gusto tu VS.
+- Fuente: haces "CTRL + P" y escribes "Preferences: Open User Settings (JSON)" y cuando hagas click en la opcion copias esta linea -> "editor.fontSize": 16 haciendo que la letra en VS se más grande o pequeña.
+- Paneles o Atajos: En este orden haces "CTRL + K" y "CTRL + S" y se abrira una ventana con todos los atajos para que puedar ser personalizados.
+- Antes: [Captura](Evidencia/Personalizacion/Personalizar_VS1.png)
+- Después: [Captura](Evidencia/Personalizacion/Personalizar_VS2.png).
 
 ### Entorno 2
 
 - Personalización realizada: [Tema, fuente, paneles o atajos].
-- Objetivo: [Descripción].
-- Antes: [Captura].
-- Después: [Captura].
-
-**Evidencias:**
-
-- [Antes y después del entorno 1](evidencias/2C/entorno1-personalizacion.png)
-- [Antes y después del entorno 2](evidencias/2C/entorno2-personalizacion.png)
+- Fondo: Ve a "Files" y "Settings" en la primera opcion "Appearance & Behavior" podras cambiar el fondo a tu gusto.
+- Fuente: Ve a "Files" y "Settings" en la primera opcion "Appearance & Behavior" podras cambiar el formato y tamaño de la letra.
+- Paneles o Atajos: Ve a "Files" -> "Settings" -> "Keymap" en este apartado puedes editar y personalizar todos los atajos que desees
+- Antes: [Captura](Evidencia/Personalizacion/Personalizar_IDEA1.png).
+- Después: [Captura](Evidencia/Personalizacion/Personalizar_IDEA2.png).
 
 ## 4.2. Automatización configurada (E-2C-02)
 
@@ -230,17 +235,17 @@ Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
 
 | Campo | Información |
 |---|---|
-| Tarea | [Tarea] |
-| Comando | [Comando real] |
-| Directorio de trabajo | [Ruta] |
+| Codigo | [Codigo](Evidencia/Python/Codigo_PY1.png) |
+| Comando | python prueba.py |
+| Directorio de trabajo | C:\Users\cash\proyectos\python-prueba |
 | Intérprete/JDK | [Versión y ruta] |
-| Resultado | [Resultado] |
+| Resultado | [Resultado](Evidencia/Python/Codigo_PY2.png) |
 
 ### Entorno 2
 
 | Campo | Información |
 |---|---|
-| Tarea | [Tarea] |
+| Codigo | [Codigo] |
 | Comando | [Comando real] |
 | Directorio de trabajo | [Ruta] |
 | Intérprete/JDK | [Versión y ruta] |
@@ -266,14 +271,17 @@ Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
 **P-2C-01. ¿Qué parte de la personalización es personal y cuál podría compartir el equipo?**
 
 [Respuesta.]
+-
 
 **P-2C-02. ¿Qué pasos manuales ahorra la automatización?**
 
 [Respuesta.]
+El ejecutar atraves de la interfaz el codigo
 
 **P-2C-03. ¿Qué riesgo tendría ejecutarla con un intérprete, una ruta o una versión distinta?**
 
 [Respuesta.]
+Corres el riesgo de toparte de con un problema de compatibilidad y versiones
 
 ---
 
@@ -283,61 +291,66 @@ Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
 
 | Componente | Entorno 1 | Entorno 2 |
 |---|---|---|
-| IDE | [Versión] | [Versión] |
-| Plugin/extensión | [Versión] | [Versión] |
-| Python/JDK | [Versión] | [Versión] |
-| Sistema de construcción | [Gradle/Maven/Otro] | [Gradle/Maven/Otro] |
-| Sistema operativo | [Versión] | [Versión] |
+| IDE | 1.98 (Visual Studio Code) | 2025.3 (IntelliJ IDEA) |
+| Plugin/extensión | - | - |
+| Python/JDK | 3.15.2 | 25.0.5.1 |
+| Sistema de construcción | Maven | Gradle |
+| Sistema operativo | Windows11 | Windows11 |
 
 ## 5.2. Política de actualización (E-2D-02)
 
 ### Entorno 1
 
-- Configuración: [Descripción].
-- Política elegida: [Manual/Automática/Canal estable].
-- Justificación: [Motivo].
+- Configuración: [Descripción](Evidencia/Personalizacion/IDE_VS1.png).
+- Política elegida: default.
+- Justificación: Para mi es la opcion más estable y confiable que se puede llegar a elegir
 
 ### Entorno 2
 
-- Configuración: [Descripción].
-- Política elegida: [Manual/Automática/Canal estable].
-- Justificación: [Motivo].
+- Configuración: [Descripción](Evidencia/IDEA/Menu_IDEA1.png).
+- Política elegida: automatico.
+- Justificación: seleccioné el automatico porque a pesar de poder desembocar en un problema de compatibilidad, es la opcion más sostenible con la que cuenta IntelliJ IDEA
 
 ## 5.3. Comprobación y decisión (E-2D-03)
 
 | Comprobación | Entorno 1 | Entorno 2 |
 |---|---|---|
-| Actualizaciones disponibles | [Resultado] | [Resultado] |
-| Versión disponible | [Versión] | [Versión] |
-| Actualización realizada | [Sí/No] | [Sí/No] |
-| Motivo de la decisión | [Motivo] | [Motivo] |
+| Actualizaciones disponibles | [Resultado](Evidencia/Visual/Actualizar_VS1.png). | [Resultado](Evidencia/IDEA/Actualizar_IDEA1.png). |
+| Versión disponible | [Versión](Evidencia/Visual/Actualizar_VS2.png) | [Versión](Evidencia/IDEA/Actualizar_IDEA2.png) |
+| Actualización realizada | Sí | Sí |
+| Motivo de la decisión | Nuevas extensiones, mejoras en la interfaz y seguridad | Mejora en las herramientas de depuracion, mejores plugins y seguridad |
 
 **Evidencias:**
 
-- [Comprobación de actualizaciones del entorno 1](evidencias/2D/entorno1-updates.png)
-- [Comprobación de actualizaciones del entorno 2](evidencias/2D/entorno2-updates.png)
+- [Comprobación de actualizaciones del entorno 1](Evidencia/Visual/Actualizar_VS2.png)
+- [Comprobación de actualizaciones del entorno 2](Evidencia/IDEA/Actualizar_IDEA2.png)
 
 ## 5.4. Comprobación posterior (E-2D-04)
 
 [Describir el reinicio, la comprobación del proyecto y la ejecución de la misma tarea de la sección 4.]
+-
 
 ## 5.5. Preguntas
 
 **P-2D-01. ¿Qué componente controla la actualización del IDE y cuál controla la de sus plugins o extensiones?**
 
 [Respuesta.]
+Las actualizaciones de la IDE son controladar por el update service el cual comprueba constantemente por actualizaciones y las extensiones y plugins son controladas por el administrador de extensiones
 
 **P-2D-02. ¿Por qué has elegido una política automática o manual?**
 
 [Respuesta.]
+He decidido la politica automatica ya que la mayoria de actualizaciones no afectarian a mis trabajos, pero en caso de hacer un proyecto mas grande posiblemente me decantaria más por la opcion manual, hasta el momento preferire la politica automatica
 
 **P-2D-03. ¿Por qué es importante mantener el entorno actualizado y qué riesgos tiene actualizarlo sin comprobar la compatibilidad?**
 
 [Respuesta.]
+Pueden haber problemas en la seguridad y muy probablemente perder la compatibilidad con algunas extensiones o plugins haciendo que tu trabajo se vuelva obsoleto hasta actualizar el IDE
 
 **P-2D-04. ¿Qué comprobaciones harías antes de aceptar una actualización importante?**
 
 [Respuesta.]
+Comprobar la compatibilidad con mis extensiones y plugins, los cambios que incluye y si despues de la actualizacion mi proyecto seguira intacto
 
 ---
 
@@ -350,13 +363,13 @@ Para realizar esta actividad se han creado dos proyectos o módulos dentro del m
 
 **Configuración del entorno:**
 
-- IDE utilizado: [Indicar IDE].
-- Versión del IDE: [Indicar versión].
-- JDK instalado: [Indicar versión].
-- Versión de Java: [Indicar versión].
-- Versión de Kotlin/JVM: [Indicar versión].
-- Sistema de construcción: [Gradle, Maven u otro].
-- Sistema operativo: [Indicar sistema operativo].
+- IDE utilizado: IntelliJ IDEA.
+- Versión del IDE: [Indicar versión](Evidencia/IDEA/Actualizar_IDEA2.png).
+- JDK instalado: [Indicar versión](Evidencia/IDEA/IDE_IDEA1.png).
+- Versión de Java: [Indicar versión](Evidencia/IDEA/IDE_IDEA2.png).
+- Versión de Kotlin/JVM: [Indicar versión](Evidencia/IDEA/IDE_IDEA3.png).
+- Sistema de construcción: Gradle.
+- Sistema operativo: Windows11.
 
 **Archivos utilizados:**
 
@@ -393,32 +406,30 @@ Se ejecutan ambos programas desde sus respectivas configuraciones de ejecución 
 
 **Configuración de ejecución de Java:**
 
-- Nombre de la configuración: [Indicar nombre].
-- Clase principal: [Indicar clase].
-- JDK utilizado: [Indicar versión].
+- Nombre de la configuración: Main.java
+- Clase principal: Main.
+- JDK utilizado: [Indicar versión](Evidencia/IDEA/IDE_IDEA1.png).
 
 **Configuración de ejecución de Kotlin:**
 
-- Nombre de la configuración: [Indicar nombre].
-- Clase o función principal: [Indicar punto de entrada].
-- JDK utilizado: [Indicar versión].
+- Nombre de la configuración: Main.Kt
+- Clase o función principal: Main.
+- JDK utilizado: [Indicar versión](Evidencia/IDEA/IDE_IDEA1.png).
 
 **Salida obtenida en Java:**
 
-```text
-[Pegar aquí la salida completa]
-```
+[Pegar aquí la salida completa](Evidencia/IDEA/Java_IDEA1.png).
+
 
 **Salida obtenida en Kotlin:**
 
-```text
-[Pegar aquí la salida completa]
-```
+[Pegar aquí la salida completa](Evidencia/IDEA/Kotlin_IDEA1.png).
+
 
 **Evidencias:**
 
-- [Insertar captura de la ejecución de Java].
-- [Insertar captura de la ejecución de Kotlin].
+- [Insertar captura de la ejecución de Java](Evidencia/IDEA/Java_IDEA2.png).
+- [Insertar captura de la ejecución de Kotlin](Evidencia/IDEA/Kotlin_IDEA2.png).
 
 ## E-2E-03 — Construcción y artefactos
 
@@ -426,35 +437,32 @@ Se realiza una construcción explícita de ambos proyectos para comprobar qué a
 
 **Construcción de Java:**
 
-- Comando o tarea utilizada: [Indicar comando].
-- Carpeta de salida: [Indicar ruta].
-- Archivos generados: [Indicar archivos `.class`, JAR u otros].
-- Nombre del artefacto: [Indicar nombre].
+- Comando o tarea utilizada: [Indicar comando](Evidencia/IDEA/Java_IDEA3.png).
+- Archivos generados: [Indicar archivos `.class`, JAR u otros](Evidencia/IDEA/Java_IDEA4.png).
 
 **Construcción de Kotlin:**
 
-- Comando o tarea utilizada: [Indicar comando].
-- Carpeta de salida: [Indicar ruta].
-- Archivos generados: [Indicar archivos `.class`, JAR u otros].
-- Nombre del artefacto: [Indicar nombre].
+- Comando o tarea utilizada: [Indicar comando](Evidencia/IDEA/Kotlin_IDEA3.png).
+- Archivos generados: [Indicar archivos `.class`, JAR u otros](Evidencia/IDEA/Kotlin_IDEA4.png).
 
 **Evidencias:**
 
-- [Insertar captura de la construcción de Java].
-- [Insertar captura de la construcción de Kotlin].
-- [Insertar captura de las carpetas de salida y los artefactos generados].
+- [Insertar captura de la construcción de Java](Evidencia/IDEA/Java_IDEA5.png).
+- [Insertar captura de la construcción de Kotlin](Evidencia/IDEA/Kotlin_IDEA5.png).
+- [Insertar captura de las carpetas de salida y los artefactos generados](Evidencia/IDEA/Java,Kotlin_IDEA1.png).
 
 ## P-2E-01. ¿Qué partes de la cadena de construcción son diferentes entre los dos lenguajes?
 
-[Escribir aquí la comparación entre los compiladores, las dependencias, las bibliotecas y las fases de construcción de Java y Kotlin.]
+En general la construccion que yo he realizado entre java y kotlin son muy diferentes del uno y del otro, esto notandose más cuando nos referimos a los comandos, tambien en el tema del compilador, porque en mi caso he tenido que instalar un compilador de kotlin para poder asi compilarlo y realizar el ejercicio
 
 ## P-2E-02. ¿Qué configuraciones y artefactos genera el IDE en cada caso?
 
-[Describir aquí las configuraciones de ejecución, los puntos de entrada, las opciones del JDK y los artefactos generados por cada proyecto.]
+- En java se genera un .java que pasa a un .class atraves del compilador javac 
+- En kotlin se genera un .kt que pasa a un .jar o .class por el compilador kotlinc
 
 ## P-2E-03. ¿Qué diferencia hay entre la salida de Run y el resultado de Build?
 
-[Explicar aquí la diferencia entre ejecutar un programa desde el IDE y realizar una construcción explícita para generar archivos compilados o artefactos.]
+La salida Run sirve para ejecutar el programa y mostrar su resultado en la consola del IDE. Mientras que el Build sirve para compilar el proyecto, comprobar que no existen errores de compilación y generar los archivos objetos, como los .class o .jar, sin tener que ejecutar el programa.
 
 ---
 
@@ -476,11 +484,11 @@ print("¡Despegue!")
 
 | Característica | IDE 1 | IDE 2 |
 |---|---|---|
-| Nombre del IDE | [Indicar] | [Indicar] |
-| Versión | [Indicar] | [Indicar] |
-| Sistema operativo | [Indicar] | [Indicar] |
-| Versión de Python | [Indicar] | [Indicar] |
-| Ruta del intérprete | [Indicar] | [Indicar] |
+| Nombre del IDE | Visual Studio Code | Intellij IDEA |
+| Versión | [Indicar](Evidencia/Visual/Actualizar_VS2.png) | [Indicar](Evidencia/IDEA/version_IDEA1.png) |
+| Sistema operativo | Windows11 | Windows11 |
+| Versión de Python | [Indicar](Evidencia/Visual/versionPY_VS1.png) | [Indicar](Evidencia/IDEA/versionPY_IDEA1.png) |
+| Ruta del intérprete | - | [Indicar] |
 | Entorno virtual | [Indicar] | [Indicar] |
 
 Se comprueba que el contenido del archivo `main.py` es idéntico en ambos entornos.
