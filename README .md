@@ -503,17 +503,11 @@ Se selecciona el mismo intérprete de Python en ambos IDE y se ejecuta el archiv
 
 **Datos de ejecución en el IDE 1:**
 
-- Intérprete seleccionado: [Indicar].
-- Versión de Python: [Indicar].
-- Ruta del intérprete: [Indicar].
-- Configuración de ejecución: [Indicar].
-- Comando utilizado: [Indicar].
+- Intérprete seleccionado: [Indicar](Evidencia/Visual/Interprete_VS1.png).
+- Versión de Python: [Indicar](Evidencia/Comandos/Comando1.png).
+- Ruta del intérprete: ~\AppData\Local\Python\pythoncore-3.12-64\python.exe.
+- Comando de ejecucion: [Indicar](Evidencia/Python/Ejecucion_VS1.png).
 
-**Salida obtenida:**
-
-```text
-[Pegar aquí la salida completa del IDE 1]
-```
 
 **Datos de ejecución en el IDE 2:**
 
@@ -541,8 +535,6 @@ Se coloca un punto de interrupción dentro del bucle para observar cómo cambia 
 
 - [Insertar captura de ejecución en el IDE 1].
 - [Insertar captura de ejecución en el IDE 2].
-- [Insertar captura del punto de interrupción en el IDE 1].
-- [Insertar captura del punto de interrupción en el IDE 2].
 
 ## E-2F-03 — Construcción común
 
@@ -648,230 +640,15 @@ Get-FileHash cuenta-atras.jar -Algorithm SHA256
 - [Insertar captura del contenido del JAR del IDE 1].
 - [Insertar captura del contenido del JAR del IDE 2].
 - [Insertar captura de las huellas SHA-256].
-- [Insertar captura de la ejecución de ambos JAR].
 
 ## P-2F-01. Explica las diferencias que observes en la preparación, la ejecución, la depuración, la configuración y la reproducibilidad.
 
-[Explicar aquí las diferencias observadas entre ambos entornos durante la preparación del proyecto, la selección del intérprete, la ejecución del código, la depuración y la construcción de los artefactos.
-
-Indicar qué diferencias corresponden únicamente a la interfaz del IDE y cuáles afectan realmente a la configuración o al proceso de desarrollo.
-
-Comentar también si se han obtenido resultados reproducibles utilizando el mismo código, las mismas herramientas y los mismos comandos.]
+[Respuesta.]
 
 ## P-2F-02. ¿Qué entorno te ha resultado más cómodo o eficiente para ejecutar el mismo código y por qué?
 
-[Indicar cuál de los dos entornos ha resultado más cómodo y justificar la elección teniendo en cuenta aspectos como:
+[Indicar cuál de los dos entornos ha resultado más cómodo y justificar la elección teniendo en cuenta aspectos como:]
 
-- Facilidad de configuración del intérprete o JDK.
-- Número de pasos necesarios para ejecutar el programa.
-- Integración de la terminal.
-- Facilidad para utilizar el depurador.
-- Organización de las herramientas.
-- Facilidad para construir y localizar los artefactos.
-
-Justificar la elección utilizando las pruebas realizadas durante la actividad.]
-
-
-# 4.8. Parte grupal: comparación y análisis (CE 2.g)
-
-## E-2G-01 — Consolidación
-
-Se reúnen las evidencias obtenidas individualmente por los integrantes del grupo para realizar una comparación conjunta de los dos entornos de desarrollo seleccionados.
-
-Antes de elaborar la tabla comparativa, se revisan los resultados y se resuelven las posibles discrepancias entre las pruebas realizadas.
-
-**Datos de los entornos seleccionados:**
-
-- Entorno 1: [Indicar nombre, edición y versión].
-- Entorno 2: [Indicar nombre, edición y versión].
-
-**Integrantes del grupo:**
-
-- [Integrante 1].
-- [Integrante 2].
-- [Integrante 3].
-- [Integrante 4].
-- [Añadir más integrantes si es necesario].
-
-**Evidencias recopiladas:**
-
-- [Indicar evidencias del primer entorno].
-- [Indicar evidencias del segundo entorno].
-- [Indicar pruebas realizadas en ambos entornos].
-
-**Discrepancias encontradas y resolución:**
-
-[Describir las diferencias entre los resultados individuales y explicar cómo se han comprobado o resuelto.]
-
-Las características que no se hayan podido comprobar se indicarán como «no comprobado» y las mediciones que no se hayan realizado se indicarán como «no medido».
-
-## E-2G-02 — Tabla comparativa
-
-Se realiza una comparación entre los dos entornos de desarrollo utilizados, teniendo en cuenta sus características, herramientas, posibilidades de configuración y resultados obtenidos durante las actividades anteriores.
-
-| Característica | Entorno 1: [Nombre] | Entorno 2: [Nombre] |
-|---|---|---|
-| Licencia | [Indicar] | [Indicar] |
-| Edición | [Indicar] | [Indicar] |
-| Sistema operativo | [Indicar] | [Indicar] |
-| Proceso de instalación | [Describir] | [Describir] |
-| Lenguajes probados | [Indicar] | [Indicar] |
-| Frameworks probados | [Indicar] | [Indicar] |
-| Módulos disponibles | [Describir] | [Describir] |
-| Plugins o extensiones | [Indicar] | [Indicar] |
-| Dependencia de herramientas externas | [Describir] | [Describir] |
-| Editor de código | [Describir] | [Describir] |
-| Autocompletado | [Describir] | [Describir] |
-| Diagnóstico de errores | [Describir] | [Describir] |
-| Refactorización | [Describir] | [Describir] |
-| Depuración | [Describir] | [Describir] |
-| Pruebas | [Describir] | [Describir] |
-| Control de versiones | [Describir] | [Describir] |
-| Personalización | [Describir] | [Describir] |
-| Automatización | [Describir] | [Describir] |
-| Actualización | [Describir] | [Describir] |
-| Mantenimiento | [Describir] | [Describir] |
-| Construcción de proyectos | [Describir] | [Describir] |
-| Artefactos generados | [Indicar] | [Indicar] |
-| Reproducibilidad | [Describir] | [Describir] |
-| Rendimiento | [Indicar mediciones o «no medido»] | [Indicar mediciones o «no medido»] |
-| Accesibilidad | [Describir] | [Describir] |
-| Ventajas principales | [Indicar] | [Indicar] |
-| Limitaciones | [Indicar] | [Indicar] |
-| Proyecto recomendado | [Indicar] | [Indicar] |
-
-## E-2G-03 — Origen de las funciones
-
-Se identifica el origen de las principales características de cada entorno para distinguir las herramientas que incorpora el IDE de aquellas que necesitan complementos o programas externos.
-
-Se utilizarán las siguientes categorías:
-
-- **Integrada:** función incluida directamente en el IDE.
-- **Extensión o plugin:** función añadida mediante un complemento.
-- **Herramienta externa:** función realizada por un programa independiente.
-- **No disponible:** función que el entorno no ofrece.
-- **No comprobada:** función cuyo funcionamiento no se ha verificado.
-
-| Característica | Entorno 1 | Entorno 2 |
-|---|---|---|
-| Editor de código | [Indicar origen] | [Indicar origen] |
-| Autocompletado | [Indicar origen] | [Indicar origen] |
-| Diagnóstico de errores | [Indicar origen] | [Indicar origen] |
-| Refactorización | [Indicar origen] | [Indicar origen] |
-| Depuración | [Indicar origen] | [Indicar origen] |
-| Ejecución de pruebas | [Indicar origen] | [Indicar origen] |
-| Control de versiones | [Indicar origen] | [Indicar origen] |
-| Gestión de plugins | [Indicar origen] | [Indicar origen] |
-| Automatización | [Indicar origen] | [Indicar origen] |
-| Construcción de proyectos | [Indicar origen] | [Indicar origen] |
-| Gestión de dependencias | [Indicar origen] | [Indicar origen] |
-| Actualizaciones | [Indicar origen] | [Indicar origen] |
-
-**Observaciones:**
-
-[Explicar qué características necesitan herramientas externas, cuáles dependen de plugins y cuáles vienen incorporadas en cada IDE.]
-
-## E-2G-04 — Conclusión grupal
-
-Después de revisar las actividades individuales y comparar los resultados obtenidos, se realiza una conclusión conjunta sobre los dos entornos de desarrollo.
-
-**Coincidencias entre los integrantes:**
-
-[Indicar los aspectos en los que han coincidido los integrantes del grupo.]
-
-**Discrepancias encontradas:**
-
-[Indicar las diferencias de opinión o de resultados y explicar cómo se han resuelto.]
-
-**Aspectos más destacados:**
-
-[Describir las características más importantes observadas durante las pruebas.]
-
-**Conclusión general del grupo:**
-
-[Redactar la conclusión conjunta sobre las ventajas, limitaciones y utilidad de cada entorno de desarrollo.]
-
-### P-2G-01. ¿Qué características comunes comparten los entornos en edición, depuración, pruebas y control de versiones?
-
-[Comparar las funciones que comparten ambos entornos en relación con:
-
-- Edición y escritura de código.
-- Autocompletado y detección de errores.
-- Depuración y puntos de interrupción.
-- Ejecución de pruebas.
-- Integración con sistemas de control de versiones.
-
-Incluir ejemplos o evidencias obtenidas durante las actividades individuales.]
-
-### P-2G-02. ¿Qué diferencias habéis comprobado en módulos, personalización, actualización y generación de artefactos?
-
-[Explicar las diferencias observadas entre los dos entornos en relación con:
-
-- Organización y gestión de módulos.
-- Instalación y configuración de plugins.
-- Opciones de personalización.
-- Gestión de actualizaciones.
-- Construcción de proyectos.
-- Generación y localización de artefactos.
-
-Indicar qué diferencias se han comprobado mediante pruebas.]
-
-### P-2G-03. ¿Qué entorno encaja mejor con un proyecto Python, con uno Java o Kotlin y con un proyecto que utilice varios lenguajes?
-
-**Proyecto Python:**
-
-[Indicar el entorno recomendado y justificar la elección con una evidencia obtenida durante las pruebas.]
-
-**Proyecto Java o Kotlin:**
-
-[Indicar el entorno recomendado y justificar la elección con una evidencia obtenida durante las pruebas.]
-
-**Proyecto con varios lenguajes:**
-
-[Indicar el entorno recomendado y justificar la elección teniendo en cuenta la compatibilidad, los complementos y las herramientas disponibles.]
-
-### P-2G-04. ¿Qué complemento o funcionalidad recomendaríais y qué coste de mantenimiento tiene?
-
-**Complemento o funcionalidad recomendada:**
-
-- Nombre: [Indicar].
-- Entorno en el que se utiliza: [Indicar].
-- Funcionalidad principal: [Describir].
-- Motivo de la recomendación: [Explicar].
-- Ventajas: [Indicar].
-- Limitaciones: [Indicar].
-
-**Coste de mantenimiento:**
-
-[Describir si necesita actualizaciones, configuración adicional, compatibilidad con nuevas versiones del IDE o dependencias externas.]
-
-## E-2G-05 — Exposición
-
-Se prepara una exposición grupal para presentar los resultados de la comparación entre los dos entornos de desarrollo.
-
-**Contenido de la exposición:**
-
-1. Presentación de los dos entornos seleccionados.
-2. Explicación de sus principales características.
-3. Presentación de la tabla comparativa.
-4. Demostración de dos o tres evidencias importantes.
-5. Explicación de las limitaciones encontradas durante las pruebas.
-6. Presentación de las conclusiones y recomendaciones del grupo.
-
-**Evidencias que se mostrarán:**
-
-- [Insertar captura de las características del primer IDE].
-- [Insertar captura de las características del segundo IDE].
-- [Insertar captura de una ejecución o depuración].
-- [Insertar captura de una construcción y sus artefactos].
-
-**Limitaciones de la comparación:**
-
-[Indicar qué características no se han podido comprobar, qué mediciones no se han realizado y qué condiciones podrían afectar a los resultados.]
-
-**Recomendación final del equipo:**
-
-[Redactar la recomendación final del grupo y justificarla con las evidencias obtenidas.]
 
 ---
 
