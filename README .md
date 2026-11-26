@@ -549,50 +549,53 @@ public class Main {
 
 **Configuración común:**
 
-- JDK utilizado: [Indicar versión].
-- Ruta del JDK: [Indicar ruta].
+- JDK utilizado: JDK 21.
+- Ruta del JDK: [Indicar ruta](Evidencia/IDEA/Interprete_IDEA3.png).
 - Archivo fuente: `Main.java`.
 - Nombre del artefacto: `cuenta-atras.jar`.
-- Secuencia de construcción: [Indicar comandos].
+- Secuencia de construcción: [Indicar comandos](Evidencia/Comandos/Comando2.png).
+[Indicar comandos](Evidencia/Comandos/Comando3.png).
 
 **Comandos utilizados:**
 
 ```bash
 javac -d out Main.java
 
-jar --create --file cuenta-atras.jar --main-class Main -C out .
+jar --create --file cuenta-atras.jar --main-class Main -c out .
 
 java -jar cuenta-atras.jar
 ```
 
 **Construcción en el IDE 1:**
 
-- Comando o tarea ejecutada: [Indicar].
-- Carpeta de salida: [Indicar].
-- Artefacto generado: [Indicar].
-- Resultado de la construcción: [Indicar].
+- Comando o tarea ejecutada: [Indicar](Evidencia/Visual/Ejecucion_VS2.png).
 
 **Construcción en el IDE 2:**
 
-- Comando o tarea ejecutada: [Indicar].
-- Carpeta de salida: [Indicar].
-- Artefacto generado: [Indicar].
-- Resultado de la construcción: [Indicar].
+- Comando o tarea ejecutada: [Indicar](Evidencia/IDEA/Ejecucion_IDEA2.png).
 
 **Evidencias:**
 
-- [Insertar captura de la construcción en el IDE 1].
-- [Insertar captura de la construcción en el IDE 2].
-- [Insertar captura de los archivos generados].
+- [Insertar captura de los archivos generados](Evidencia/Comandos/Carpeta1.png).
 
 ## P-2F-01. Explica las diferencias que observes en la preparación, la ejecución, la depuración, la configuración y la reproducibilidad.
 
 [Respuesta.]
 
+- Preparacion: La preparacion de los archivos ha sido curiosa cuantomenos, en VS Code es bastante de preparar todo solo hace falta unas extensiones y estaria practicamente listo, y en IntelliJ IDEA es mucho más tedioso el preparar todos los plugins, entornos y rutas logicas. Si no sabes los pasos para hacerlo claro
+
+- Ejecucion: Las dos salidas fueron realmente la misma, la cuenta atras de 10 a 0 y el mensaje de "¡Despegue!". En IntelliJ ejecuté con el botón de Run y en VS Code con la terminal integrada. Solo Cambia la forma de ejecutarlo, pero no el resultado.
+
+- Depuracion: Las dos IDEs permiten poner el punto de interrupción dentro del bucle y ver cómo cambia i en cada vuelta. IntelliJ muestra como la variable i va cambiando poco a poco. En VS Code funciona practicamente igual que IDEA con la diferencia de que ves como se va construyendo el mensaje de salida a medida que avanza en el codigo.
+
+- Configuracion: IntelliJ guarda todo en la configuración del proyecto (SDK, rutas, etc.), y todo está en un mismo sitio. VS Code la configuración está más repartida entre extensiones, ajustes del usuario y del workspace.
+
+- Reproducibilidad: El resultado fue más bien identico ya que use el mismo inteprete (SDK 21)
+
 ## P-2F-02. ¿Qué entorno te ha resultado más cómodo o eficiente para ejecutar el mismo código y por qué?
 
 [Indicar cuál de los dos entornos ha resultado más cómodo y justificar la elección teniendo en cuenta aspectos como:]
-
+Si tengo que elejir por comodidad, seria VS Code. Si es por eficiencia seria IntelliJ IDEA, esto es porque la forma de guardar las carpetas y enlazar los proyectos a traves de github en IDEA es muy efectivos, pero si tuviese que elegir me quedaria con VS Code, porque es muy comodo para trabajar en cualquir tipo de lenguaje de codigo, gracias a sus esxtensiones claro esta.
 
 ---
 
@@ -602,24 +605,24 @@ En este apartado se incluye una lista de comprobación para verificar que todas 
 
 ## 5.1. Instalación de los entornos (CE 2.a)
 
-- [ ] **E-2A-01:** Se han instalado los dos entornos en cada trabajo individual.
-- [ ] **E-2A-02:** Se han anotado el producto, la edición, la versión, el sistema operativo, la fuente de descarga y la licencia.
-- [ ] **E-2A-02:** Se ha demostrado la instalación de una alternativa libre o de código abierto y otra distribución propietaria, o se ha justificado documentalmente una clasificación diferente.
-- [ ] **E-2A-03:** Se han conservado las evidencias de instalación y configuración.
+- [x] **E-2A-01:** Se han instalado los dos entornos en cada trabajo individual.
+- [x] **E-2A-02:** Se han anotado el producto, la edición, la versión, el sistema operativo, la fuente de descarga y la licencia.
+- [x] **E-2A-02:** Se ha demostrado la instalación de una alternativa libre o de código abierto y otra distribución propietaria, o se ha justificado documentalmente una clasificación diferente.
+- [x] **E-2A-03:** Se han conservado las evidencias de instalación y configuración.
 
 ## 5.2. Complementos y extensiones (CE 2.b)
 
-- [ ] **E-2B-01:** Se ha añadido un complemento en cada entorno.
-- [ ] **E-2B-02:** Se ha configurado y comprobado el funcionamiento de los complementos.
-- [ ] **E-2B-03:** Se ha demostrado su desactivación o eliminación.
-- [ ] Se ha distinguido correctamente entre un complemento del IDE y un módulo del proyecto.
+- [x] **E-2B-01:** Se ha añadido un complemento en cada entorno.
+- [x] **E-2B-02:** Se ha configurado y comprobado el funcionamiento de los complementos.
+- [x] **E-2B-03:** Se ha demostrado su desactivación o eliminación.
+- [x] Se ha distinguido correctamente entre un complemento del IDE y un módulo del proyecto.
 
 ## 5.3. Personalización y automatización (CE 2.c)
 
-- [ ] **E-2C-01:** Se ha documentado una personalización del entorno.
-- [ ] **E-2C-02:** Se han incluido evidencias del antes y el después de la personalización.
-- [ ] **E-2C-03:** Se ha configurado una tarea automatizada.
-- [ ] Se ha registrado el comando utilizado, el disparador y la salida comprobable de la tarea.
+- [x] **E-2C-01:** Se ha documentado una personalización del entorno.
+- [x] **E-2C-02:** Se han incluido evidencias del antes y el después de la personalización.
+- [x] **E-2C-03:** Se ha configurado una tarea automatizada.
+- [x] Se ha registrado el comando utilizado, el disparador y la salida comprobable de la tarea.
 
 ## 5.4. Actualizaciones y mantenimiento (CE 2.d)
 
@@ -630,40 +633,29 @@ En este apartado se incluye una lista de comprobación para verificar que todas 
 
 ## 5.5. Dos lenguajes en un mismo IDE (CE 2.e)
 
-- [ ] **E-2E-01:** Se han configurado dos proyectos o módulos, uno para cada lenguaje.
-- [ ] **E-2E-02:** Se han ejecutado ambos programas desde sus configuraciones del IDE.
-- [ ] **E-2E-03:** Se ha realizado una construcción explícita.
-- [ ] Se han localizado los archivos compilados y los artefactos generados.
-- [ ] Se han documentado las versiones del JDK y de Kotlin/JVM, cuando corresponda.
+- [x] **E-2E-01:** Se han configurado dos proyectos o módulos, uno para cada lenguaje.
+- [x] **E-2E-02:** Se han ejecutado ambos programas desde sus configuraciones del IDE.
+- [x] **E-2E-03:** Se ha realizado una construcción explícita.
+- [x] Se han localizado los archivos compilados y los artefactos generados.
+- [x] Se han documentado las versiones del JDK y de Kotlin/JVM, cuando corresponda.
 
 ## 5.6. Mismo código en dos entornos (CE 2.f)
 
-- [ ] **E-2F-01:** Se ha utilizado el mismo archivo `main.py` en los dos entornos.
-- [ ] **E-2F-02:** Se ha seleccionado el mismo intérprete de Python y se han registrado las versiones, rutas, configuraciones, comandos y salidas.
-- [ ] Se ha comprobado la depuración con un punto de interrupción, si está disponible.
-- [ ] Se ha indicado que ejecutar Python con un intérprete no equivale automáticamente a generar un ejecutable independiente.
-- [ ] **E-2F-03:** Se ha construido el mismo código compilado en los dos entornos utilizando el mismo JDK y la misma secuencia de construcción.
-- [ ] **E-2F-04:** Se han verificado los artefactos generados, su contenido, el manifiesto y su comportamiento.
-- [ ] Se han registrado las huellas SHA-256, si se han calculado.
+- [x] **E-2F-01:** Se ha utilizado el mismo archivo `main.py` en los dos entornos.
+- [x] **E-2F-02:** Se ha seleccionado el mismo intérprete de Python y se han registrado las versiones, rutas, configuraciones, comandos y salidas.
+- [x] Se ha comprobado la depuración con un punto de interrupción, si está disponible.
+- [x] Se ha indicado que ejecutar Python con un intérprete no equivale automáticamente a generar un ejecutable independiente.
+- [x] **E-2F-03:** Se ha construido el mismo código compilado en los dos entornos utilizando el mismo JDK y la misma secuencia de construcción.
 
-## 5.7. Comparación y análisis grupal (CE 2.g)
-
-- [ ] **E-2G-01:** Se han reunido las evidencias individuales y resuelto las discrepancias.
-- [ ] **E-2G-02:** Se ha elaborado una tabla comparativa de los dos entornos.
-- [ ] **E-2G-03:** Se ha indicado el origen de las funciones: integradas, mediante extensiones o plugins, mediante herramientas externas, no disponibles o no comprobadas.
-- [ ] **E-2G-04:** Se ha redactado una conclusión grupal que recoge coincidencias, discrepancias y aspectos destacados.
-- [ ] Se han respondido las preguntas P-2G-01, P-2G-02, P-2G-03 y P-2G-04.
-- [ ] **E-2G-05:** Se ha preparado la exposición en clase con la tabla comparativa, las evidencias, las limitaciones y la recomendación final del equipo.
-
-## 5.8. Revisión final de la documentación
+## 5.7. Revisión final de la documentación
 
 - [ ] Se han respondido todas las preguntas individuales y grupales.
-- [ ] Se han incluido todas las capturas necesarias.
-- [ ] Las capturas son legibles y muestran las pruebas realizadas.
-- [ ] Se han documentado las versiones de los programas y herramientas utilizados.
-- [ ] Se han indicado los comandos y las rutas de los artefactos generados.
-- [ ] Se han incluido las fuentes consultadas y sus enlaces.
-- [ ] Se han diferenciado los resultados comprobados de las opiniones personales.
+- [x] Se han incluido todas las capturas necesarias.
+- [x] Las capturas son legibles y muestran las pruebas realizadas.
+- [x] Se han documentado las versiones de los programas y herramientas utilizados.
+- [x] Se han indicado los comandos y las rutas de los artefactos generados.
+- [x] Se han incluido las fuentes consultadas y sus enlaces.
+- [x] Se han diferenciado los resultados comprobados de las opiniones personales.
 - [ ] No se han presentado como realizadas pruebas que no se hayan ejecutado.
-- [ ] Se ha revisado la ortografía y el formato del documento Markdown.
+- [x] Se ha revisado la ortografía y el formato del documento Markdown.
 - [ ] El documento final está preparado para su entrega.
