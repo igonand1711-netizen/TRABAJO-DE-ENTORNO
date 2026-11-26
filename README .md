@@ -506,35 +506,29 @@ Se selecciona el mismo intérprete de Python en ambos IDE y se ejecuta el archiv
 - Intérprete seleccionado: [Indicar](Evidencia/Visual/Interprete_VS1.png).
 - Versión de Python: [Indicar](Evidencia/Comandos/Comando1.png).
 - Ruta del intérprete: ~\AppData\Local\Python\pythoncore-3.12-64\python.exe.
-- Comando de ejecucion: [Indicar](Evidencia/Visual/Ejecucion_VS1.png).
+- ejecucion: [Indicar](Evidencia/Visual/Ejecucion_VS1.png).
 
 
 **Datos de ejecución en el IDE 2:**
 
-- Intérprete seleccionado: [Indicar].
-- Versión de Python: [Indicar].
-- Ruta del intérprete: [Indicar].
-- Configuración de ejecución: [Indicar].
-- Comando utilizado: [Indicar].
+- Intérprete seleccionado: [Indicar](Evidencia/IDEA/Interprete_IDEA1.png).
+- Versión de Python: [Indicar](Evidencia/IDEA/versionPY_IDEA1.png).
+- Ruta del intérprete: [Indicar](Evidencia/IDEA/Interprete_IDEA2.png).
+- Ejecución: [Indicar](Evidencia/IDEA/Ejecucion_IDEA1.png).
 
-**Salida obtenida:**
-
-```text
-[Pegar aquí la salida completa del IDE 2]
-```
 
 **Prueba de depuración:**
 
 Se coloca un punto de interrupción dentro del bucle para observar cómo cambia el valor de la variable `i` durante la ejecución.
 
-- Resultado de la depuración en el IDE 1: [Describir].
-- Resultado de la depuración en el IDE 2: [Describir].
-- Diferencias observadas: [Describir].
+- Resultado de la depuración en el IDE 1: En VS Code se obserba como la salida se va construyendo poco a poco hasta darte el resultado completo.
+- Resultado de la depuración en el IDE 2: En IntelliJ IDEA ensaña como va cambiando la variable i hasta que acaba el programa y muestra la salida completa.
+- Diferencias observadas: En VS Code muestra como se va formando el mensaje a medida de que avanzas en el programa, mientras que IntelliJ IDEA es un poco mas tecnico y estricto en el como muestra el proceso de la depuracion.
 
 **Evidencias:**
 
-- [Insertar captura de ejecución en el IDE 1].
-- [Insertar captura de ejecución en el IDE 2].
+- [Insertar captura de ejecución en el IDE 1](Evidencia/Visual/Depuracion_VS1.png).
+- [Insertar captura de ejecución en el IDE 2](Evidencia/IDEA/Depuracion_IDEA1.png).
 
 ## E-2F-03 — Construcción común
 
