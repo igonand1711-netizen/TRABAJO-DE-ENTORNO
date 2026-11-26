@@ -506,7 +506,7 @@ Se selecciona el mismo intérprete de Python en ambos IDE y se ejecuta el archiv
 - Intérprete seleccionado: [Indicar](Evidencia/Visual/Interprete_VS1.png).
 - Versión de Python: [Indicar](Evidencia/Comandos/Comando1.png).
 - Ruta del intérprete: ~\AppData\Local\Python\pythoncore-3.12-64\python.exe.
-- Comando de ejecucion: [Indicar](Evidencia/Python/Ejecucion_VS1.png).
+- Comando de ejecucion: [Indicar](Evidencia/Visual/Ejecucion_VS1.png).
 
 
 **Datos de ejecución en el IDE 2:**
